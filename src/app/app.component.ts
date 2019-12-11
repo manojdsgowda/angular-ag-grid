@@ -10,7 +10,7 @@ import {AllCommunityModules} from "@ag-grid-community/all-modules";
 export class AppComponent  {
 
     columnDefs = [
-        {field: 'EmployeeID' },
+        {field: 'EmployeeID',filter: "agNumberColumnFilter" },
         {field: 'EmployeeCode', editable: true },
         {field: 'EmployeeName', editable: true},
         {field: 'DOJ', editable: true},
